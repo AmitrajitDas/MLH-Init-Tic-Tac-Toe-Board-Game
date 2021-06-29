@@ -15,15 +15,27 @@ body {
   justify-content: center;
   min-height: 100vh;
   padding: 2rem;
+  background-image: url("https://www.transparenttextures.com/patterns/back-pattern.png");
 }
 
 h1 {
   margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  margin: 2rem;
 }
 
 .board {
-  border: 1rem solid #ff652f;
-  background: #ff652f;
+  border: 1rem solid #D83A56;
+  background: #D83A56;
   width: 500px;
   height: 500px;
   display: grid;
@@ -38,6 +50,8 @@ h1 {
   /* font-weight: 800; */
   cursor: pointer;
   outline: none;
+background-color: #00240e;
+background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
 }
 
 .X {
