@@ -1,2 +1,8 @@
-# react-tic-tac-toe-hooks
-React Tic Tac Toe Web App using Hooks
+## What it does
+
+You can play Tic Tac Toe with your friends
+
+## How we built it
+
+Using React.js and Hooks
+
